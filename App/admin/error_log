@@ -1,0 +1,702 @@
+[26-Oct-2018 11:13:36 Africa/Nairobi] PHP Notice:  Use of undefined constant header - assumed 'header' in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:36 Africa/Nairobi] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:36 Africa/Nairobi] PHP Warning:  include(headerphp): failed to open stream: No such file or directory in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:36 Africa/Nairobi] PHP Warning:  include(): Failed opening 'headerphp' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:59 Africa/Nairobi] PHP Notice:  Use of undefined constant header - assumed 'header' in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:59 Africa/Nairobi] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:59 Africa/Nairobi] PHP Warning:  include(headerphp): failed to open stream: No such file or directory in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:13:59 Africa/Nairobi] PHP Warning:  include(): Failed opening 'headerphp' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/breaking/public_html/lesama/admin/index.php on line 4
+[26-Oct-2018 11:14:51 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '<' in /home/breaking/public_html/lesama/admin/header.php on line 2
+[26-Oct-2018 11:46:08 Africa/Nairobi] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/breaking/public_html/lesama/include/webHandler.php:103
+Stack trace:
+#0 /home/breaking/public_html/lesama/include/webHandler.php(103): PDO->prepare('SELECT * FROM s...')
+#1 /home/breaking/public_html/lesama/admin/technicians.php(32): DbHandler->getServices()
+#2 {main}
+  thrown in /home/breaking/public_html/lesama/include/webHandler.php on line 103
+[26-Oct-2018 12:03:28 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/technicians.php on line 52
+[26-Oct-2018 12:08:54 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/technicians.php on line 52
+[26-Oct-2018 12:15:07 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 12:15:07 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 12:50:48 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 12:50:48 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 12:55:57 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/technicians.php on line 52
+[26-Oct-2018 12:56:49 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/technicians.php on line 52
+[26-Oct-2018 12:57:57 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 12:59:41 Africa/Nairobi] PHP Notice:  Array to string conversion in /home/breaking/public_html/lesama/admin/technicians.php on line 48
+[26-Oct-2018 12:59:41 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:03:53 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:07:16 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:07:16 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:07:16 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:07:16 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:07:16 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:07:16 Africa/Nairobi] PHP Warning:  Illegal string offset 'location' in /home/breaking/public_html/lesama/admin/technicians.php on line 53
+[26-Oct-2018 13:30:27 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:30:27 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:44:41 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:44:41 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:46:34 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:46:34 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:48:19 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:48:19 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:50:28 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:50:28 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:51:12 Africa/Nairobi] PHP Notice:  Undefined variable: query in /home/breaking/public_html/lesama/admin/saveTechnician.php on line 6
+[26-Oct-2018 13:51:12 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:51:12 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:52:52 Africa/Nairobi] PHP Notice:  Undefined variable: query in /home/breaking/public_html/lesama/admin/saveTechnician.php on line 49
+[26-Oct-2018 13:55:09 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:55:09 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:55:47 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:55:47 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:56:11 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:56:11 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:57:51 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 13:57:51 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:00:08 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:00:08 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:00:38 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:00:38 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:01:25 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:01:25 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:01:51 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:01:51 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:07:00 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:07:00 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 321
+[26-Oct-2018 14:08:36 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 319
+[26-Oct-2018 14:08:36 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 319
+[26-Oct-2018 14:09:07 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 319
+[26-Oct-2018 14:09:07 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 319
+[26-Oct-2018 14:10:07 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 319
+[26-Oct-2018 14:10:07 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 319
+[26-Oct-2018 14:16:02 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 320
+[26-Oct-2018 14:16:02 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 320
+[26-Oct-2018 14:22:00 Africa/Nairobi] PHP Notice:  Undefined variable: pdo in /home/breaking/public_html/lesama/include/webHandler.php on line 320
+[26-Oct-2018 14:22:00 Africa/Nairobi] PHP Fatal error:  Cannot access empty property in /home/breaking/public_html/lesama/include/webHandler.php on line 320
+[26-Oct-2018 15:53:57 Africa/Nairobi] PHP Notice:  Undefined variable: getService in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 29
+[26-Oct-2018 15:53:57 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 29
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:54:26 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:55:29 Africa/Nairobi] PHP Notice:  Undefined index: erviceId in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 34
+[26-Oct-2018 15:56:07 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:56:07 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:56:07 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:56:07 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:56:07 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 15:56:07 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:02:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:02:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:02:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:02:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:02:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:02:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 30
+[26-Oct-2018 16:04:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:04:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:04:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:04:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:04:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:04:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:05:35 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:05:35 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:05:35 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:05:35 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:05:35 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:05:35 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:07:23 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 39
+[26-Oct-2018 16:07:23 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 39
+[26-Oct-2018 16:07:23 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 39
+[26-Oct-2018 16:07:23 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 39
+[26-Oct-2018 16:07:23 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 39
+[26-Oct-2018 16:07:23 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 39
+[26-Oct-2018 16:07:56 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:07:56 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:07:56 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:07:56 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:07:56 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:07:56 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:10:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 42
+[26-Oct-2018 16:10:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 42
+[26-Oct-2018 16:10:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 42
+[26-Oct-2018 16:10:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 42
+[26-Oct-2018 16:10:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 42
+[26-Oct-2018 16:10:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 42
+[26-Oct-2018 16:11:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 44
+[26-Oct-2018 16:11:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 44
+[26-Oct-2018 16:11:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 44
+[26-Oct-2018 16:11:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 44
+[26-Oct-2018 16:11:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 44
+[26-Oct-2018 16:11:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 44
+[26-Oct-2018 16:11:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:11:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:11:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:11:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:11:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:11:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:12:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:30 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:30 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:30 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:30 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:30 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:30 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:12:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 40
+[26-Oct-2018 16:23:32 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:23:32 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:23:32 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:23:32 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:23:32 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:23:32 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:26:59 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:26:59 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:26:59 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:26:59 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:26:59 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:26:59 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:16 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[26-Oct-2018 16:45:24 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:46:59 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:46:59 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 30
+[26-Oct-2018 16:46:59 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 33
+[26-Oct-2018 16:47:33 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:47:33 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 30
+[26-Oct-2018 16:47:33 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 33
+[26-Oct-2018 16:48:37 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:48:37 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:48:37 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 16:49:10 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:49:10 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:49:10 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 16:49:32 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:49:32 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:49:32 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 16:50:12 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:50:12 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:50:12 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 16:50:47 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:50:47 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:50:47 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 16:51:02 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:51:02 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:51:02 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 16:53:55 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 16:53:55 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 16:53:55 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 17:20:14 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 17:20:14 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 17:20:14 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 17:20:19 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 17:20:19 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 17:20:19 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 17:21:33 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 17:21:33 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 16
+[26-Oct-2018 17:21:33 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 17:21:33 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 17:22:57 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 17:22:57 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 16
+[26-Oct-2018 17:22:57 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 17:22:57 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[26-Oct-2018 17:23:13 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 6
+[26-Oct-2018 17:23:13 Africa/Nairobi] PHP Notice:  Undefined index: providerId in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 16
+[26-Oct-2018 17:23:13 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[26-Oct-2018 17:23:13 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[28-Oct-2018 17:27:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[28-Oct-2018 17:27:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[28-Oct-2018 17:27:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[28-Oct-2018 17:27:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[28-Oct-2018 17:27:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[28-Oct-2018 17:27:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[28-Oct-2018 17:28:05 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[28-Oct-2018 17:28:05 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[28-Oct-2018 17:29:16 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 32
+[28-Oct-2018 17:29:16 Africa/Nairobi] PHP Notice:  Undefined variable: getProvider in /home/breaking/public_html/lesama/admin/editTechnicians.php on line 35
+[29-Oct-2018 10:15:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:15:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:15:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:15:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:15:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:15:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:17:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:17:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:17:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:17:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:17:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:17:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:19:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:01 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:01 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:01 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:01 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:01 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:01 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:30:15 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:43:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:43:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:43:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:43:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:43:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:43:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:44:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:44:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:44:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:44:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:44:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:44:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:48:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:48:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:48:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:48:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:48:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:48:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:49:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:49:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:49:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:49:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:49:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:49:17 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:11 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:11 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:11 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:11 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:11 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:11 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 10:50:50 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:21:40 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:21:40 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:21:40 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:21:40 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:21:40 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:21:40 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:22:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:22:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:22:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:22:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:22:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:22:21 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:31:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:31:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:31:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:31:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:31:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:31:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:12 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:12 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:12 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:12 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:12 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:36 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:36 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:36 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:36 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:32:47 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:34:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:34:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:34:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:53:18 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:53:18 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:53:18 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:54:42 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:54:42 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:54:42 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:54:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:54:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:54:52 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:55:28 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:55:28 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:55:28 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:56:57 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:56:57 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[29-Oct-2018 11:56:57 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:14:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:14:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:14:48 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:15:28 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:15:28 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:15:28 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:15:37 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:15:37 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[31-Oct-2018 12:15:37 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[01-Nov-2018 11:50:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[01-Nov-2018 11:50:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[01-Nov-2018 11:50:26 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[01-Nov-2018 11:51:37 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[01-Nov-2018 11:51:37 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[01-Nov-2018 11:51:37 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/viewTechnicians.php on line 41
+[02-Nov-2018 10:58:02 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/index.php on line 41
+[02-Nov-2018 10:58:02 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/index.php on line 41
+[02-Nov-2018 10:58:02 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/breaking/public_html/lesama/admin/index.php on line 41
+[14-Nov-2018 10:41:26 Africa/Nairobi] SQLSTATE[28000] [1045] Access denied for user 'breaking_lesama'@'localhost' (using password: YES)
+[14-Nov-2018 10:52:09 Africa/Nairobi] SQLSTATE[42000] [1044] Access denied for user 'xllhzwhu_admin'@'localhost' to database 'breaking_lesama'
+[14-Nov-2018 10:52:12 Africa/Nairobi] SQLSTATE[42000] [1044] Access denied for user 'xllhzwhu_admin'@'localhost' to database 'breaking_lesama'
+[14-Nov-2018 10:52:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 10:52:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 10:52:58 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 10:53:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 10:53:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 10:53:53 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 11:10:27 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 11:10:27 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 11:10:27 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 11:11:57 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 11:11:57 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 11:11:57 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[14-Nov-2018 16:07:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 16:07:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 16:07:51 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 16:08:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 16:08:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[14-Nov-2018 16:08:09 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:18:55 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:18:55 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:18:55 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:27:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:27:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:27:39 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:27:54 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:27:54 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:27:54 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:30:05 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:30:05 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:30:05 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/index.php on line 41
+[15-Nov-2018 09:58:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:58:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 09:58:29 Africa/Nairobi] PHP Notice:  Undefined index: service in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 41
+[15-Nov-2018 10:06:10 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.id' in 'on clause' in /home/xllhzwhu/public_html/App/include/webHandler.php:30
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(30): PDO->prepare('SELECT p.*,pl.l...')
+#1 /home/xllhzwhu/public_html/App/admin/index.php(25): DbHandler->getAllProperties()
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 30
+[15-Nov-2018 11:53:57 Africa/Nairobi] PHP Notice:  Undefined index: type in /home/xllhzwhu/public_html/App/admin/detailView.php on line 29
+[15-Nov-2018 11:57:33 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous in /home/xllhzwhu/public_html/App/include/webHandler.php:43
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(43): PDO->prepare('SELECT p.*,pl.l...')
+#1 /home/xllhzwhu/public_html/App/admin/detailView.php(6): DbHandler->getProperty('1')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 43
+[15-Nov-2018 11:57:36 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous in /home/xllhzwhu/public_html/App/include/webHandler.php:43
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(43): PDO->prepare('SELECT p.*,pl.l...')
+#1 /home/xllhzwhu/public_html/App/admin/detailView.php(6): DbHandler->getProperty('1')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 43
+[15-Nov-2018 15:02:43 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function size() in /home/xllhzwhu/public_html/App/admin/detailView.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 36
+[15-Nov-2018 15:49:09 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 94
+[15-Nov-2018 15:49:09 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 94
+[15-Nov-2018 15:51:15 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 15:51:15 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 15:51:50 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 15:51:50 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 15:57:32 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 15:57:32 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:02:42 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:02:42 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:03:06 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:03:06 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:03:40 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:03:40 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:05:03 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:05:03 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:05:46 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:05:46 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:06:14 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:06:14 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:06:39 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:06:39 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 95
+[15-Nov-2018 16:09:06 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:09:06 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:10:13 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:10:13 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:10:54 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:10:54 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:13:11 Africa/Nairobi] PHP Notice:  Undefined variable: propertyTypes in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:13:11 Africa/Nairobi] PHP Warning:  Invalid argument supplied for foreach() in /home/xllhzwhu/public_html/App/admin/detailView.php on line 96
+[15-Nov-2018 16:54:29 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[15-Nov-2018 16:54:37 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[15-Nov-2018 16:55:44 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[15-Nov-2018 16:58:59 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[16-Nov-2018 09:43:46 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[16-Nov-2018 09:51:41 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[16-Nov-2018 09:55:42 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 09:56:11 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 10:03:06 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 10:03:43 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 10:08:32 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function format_money() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 10:11:44 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 10:14:45 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[16-Nov-2018 10:15:54 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 20
+[16-Nov-2018 10:24:11 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined function formatcurrency() in /home/xllhzwhu/public_html/App/admin/detailView.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/xllhzwhu/public_html/App/admin/detailView.php on line 63
+[16-Nov-2018 13:11:09 Africa/Nairobi] PHP Notice:  Undefined variable: row in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 23
+[16-Nov-2018 13:12:52 Africa/Nairobi] PHP Notice:  Undefined variable: row in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 23
+[16-Nov-2018 13:14:19 Africa/Nairobi] PHP Notice:  Undefined variable: row in /home/xllhzwhu/public_html/App/admin/viewTechnicians.php on line 23
+[20-Nov-2018 11:10:10 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:11:07 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:20:51 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:20:51 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:20:58 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:20:58 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:21:34 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:21:34 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:22:44 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:22:44 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:22:46 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:22:46 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:23:31 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:23:31 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:23:32 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 11:23:32 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 11:47:26 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photoUrl' in 'field list' in /home/xllhzwhu/public_html/App/include/webHandler.php:354
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(354): PDO->prepare('INSERT INTO use...')
+#1 /home/xllhzwhu/public_html/App/admin/saveUser.php(39): DbHandler->save_user('Lesama Admin', '0700000000', 'admin@lesama.co...', 'users/Copy of o...')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 354
+[20-Nov-2018 11:48:35 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photoUrl' in 'field list' in /home/xllhzwhu/public_html/App/include/webHandler.php:354
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(354): PDO->prepare('INSERT INTO use...')
+#1 /home/xllhzwhu/public_html/App/admin/saveUser.php(39): DbHandler->save_user('Lesama Admin', '0700000000', 'admin@lesama.co...', 'users/Copy of o...')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 354
+[20-Nov-2018 11:52:21 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photoUrl' in 'field list' in /home/xllhzwhu/public_html/App/include/webHandler.php:354
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(354): PDO->prepare('INSERT INTO use...')
+#1 /home/xllhzwhu/public_html/App/admin/saveUser.php(39): DbHandler->save_user('Lesama Admin', '0700000000', 'admin@lesama.co...', 'users/Copy of o...')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 354
+[20-Nov-2018 11:54:53 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photoUrl' in 'field list' in /home/xllhzwhu/public_html/App/include/webHandler.php:354
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(354): PDO->prepare('INSERT INTO use...')
+#1 /home/xllhzwhu/public_html/App/admin/saveUser.php(39): DbHandler->save_user('Lesama Admin', '0700000000', 'admin@lesama.co...', 'users/Copy of o...')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 354
+[20-Nov-2018 11:56:12 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photoUrl' in 'field list' in /home/xllhzwhu/public_html/App/include/webHandler.php:354
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(354): PDO->prepare('INSERT INTO use...')
+#1 /home/xllhzwhu/public_html/App/admin/saveUser.php(39): DbHandler->save_user('Lesama Admin', '0700000000', 'admin@lesama.co...', 'users/logo.jpg')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 354
+[20-Nov-2018 12:03:32 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'photoUrl' in 'field list' in /home/xllhzwhu/public_html/App/include/webHandler.php:355
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(355): PDO->prepare('INSERT INTO use...')
+#1 /home/xllhzwhu/public_html/App/admin/saveUser.php(39): DbHandler->save_user('Lesama Admin', '0700000000', 'admin@lesama.co...', 'users/logo.jpg')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 355
+[20-Nov-2018 12:15:40 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 12:15:40 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[20-Nov-2018 12:15:40 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[20-Nov-2018 12:15:40 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[21-Nov-2018 07:59:33 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[21-Nov-2018 07:59:33 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[21-Nov-2018 07:59:33 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[21-Nov-2018 07:59:33 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[21-Nov-2018 08:36:15 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:37:52 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:37:58 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:38:02 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:38:09 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:38:35 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:40:37 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:43:08 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:43:19 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:45:20 Africa/Nairobi] PHP Fatal error:  Cannot redeclare DbHandler::getUser() in /home/xllhzwhu/public_html/App/include/webHandler.php on line 412
+[21-Nov-2018 08:49:02 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[21-Nov-2018 08:49:02 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[21-Nov-2018 08:49:02 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 45
+[21-Nov-2018 08:49:02 Africa/Nairobi] PHP Notice:  Undefined index: id in /home/xllhzwhu/public_html/App/admin/users.php on line 46
+[21-Nov-2018 08:51:43 Africa/Nairobi] PHP Notice:  Undefined index: photoUrl in /home/xllhzwhu/public_html/App/admin/editUsers.php on line 43
+[21-Nov-2018 09:16:46 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in /home/xllhzwhu/public_html/App/include/webHandler.php:434
+Stack trace:
+#0 /home/xllhzwhu/public_html/App/include/webHandler.php(434): PDO->prepare('UPDATE users SE...')
+#1 /home/xllhzwhu/public_html/App/admin/saveEditUser.php(40): DbHandler->edit_user('2', 'Lesama Admin', '+254700000000', 'admin@lesama.co...', '')
+#2 {main}
+  thrown in /home/xllhzwhu/public_html/App/include/webHandler.php on line 434
+[21-Nov-2018 09:24:58 Africa/Nairobi] PHP Warning:  Illegal string offset 'photo_url' in /home/xllhzwhu/public_html/App/admin/deleteUsers.php on line 12
+[22-Nov-2018 11:03:00 Africa/Nairobi] PHP Warning:  A non-numeric value encountered in /home/xllhzwhu/public_html/App/admin/saveEditProperty.php on line 61
+[22-Nov-2018 11:03:00 Africa/Nairobi] PHP Warning:  A non-numeric value encountered in /home/xllhzwhu/public_html/App/admin/saveEditProperty.php on line 61
+[22-Nov-2018 11:04:44 Africa/Nairobi] PHP Warning:  A non-numeric value encountered in /home/xllhzwhu/public_html/App/admin/saveEditProperty.php on line 62
+[22-Nov-2018 11:04:44 Africa/Nairobi] PHP Warning:  A non-numeric value encountered in /home/xllhzwhu/public_html/App/admin/saveEditProperty.php on line 62
+[22-Nov-2018 11:05:30 Africa/Nairobi] PHP Warning:  A non-numeric value encountered in /home/xllhzwhu/public_html/App/admin/saveEditProperty.php on line 63
+[22-Nov-2018 11:05:30 Africa/Nairobi] PHP Warning:  A non-numeric value encountered in /home/xllhzwhu/public_html/App/admin/saveEditProperty.php on line 63
+[22-Nov-2018 13:18:26 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 13:19:25 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 12
+[22-Nov-2018 13:19:27 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 12
+[22-Nov-2018 13:19:32 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 12
+[22-Nov-2018 13:22:23 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 12
+[22-Nov-2018 13:22:28 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 12
+[22-Nov-2018 13:22:34 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 12
+[22-Nov-2018 13:23:10 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 13:24:21 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 13:24:49 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 13:25:52 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 13:25:58 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 13:27:01 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 15:23:10 Africa/Nairobi] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 73
+[22-Nov-2018 16:35:04 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:39:33 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:39:51 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:40:01 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:40:13 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:40:21 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:44:03 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:44:30 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:44:35 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:45:25 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:45:40 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:45:44 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:45:54 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 16:53:10 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 17:02:07 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 17:04:11 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 17:04:18 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/deleteUpload.php on line 9
+[22-Nov-2018 17:11:47 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:11:59 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:12:04 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:12:19 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:12:38 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:12:42 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:13:23 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:13:26 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:13:28 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:13:28 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/editImages.php on line 47
+[22-Nov-2018 17:17:00 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:18:15 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:19:44 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:20:42 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:20:45 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:20:45 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/editImages.php on line 47
+[22-Nov-2018 17:21:00 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:21:07 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:22:37 Africa/Nairobi] PHP Parse error:  syntax error, unexpected ')' in /home/xllhzwhu/public_html/App/admin/editImages.php on line 75
+[22-Nov-2018 17:23:07 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:23:10 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:23:13 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:02 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:12 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:21 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:21 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/editImages.php on line 47
+[22-Nov-2018 17:35:29 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:37 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:45 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:35:45 Africa/Nairobi] PHP Warning:  unlink(../): Is a directory in /home/xllhzwhu/public_html/App/admin/editImages.php on line 47
+[22-Nov-2018 17:35:50 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:36:02 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:36:06 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:36:12 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
+[22-Nov-2018 17:38:05 Africa/Nairobi] PHP Notice:  Undefined index: propertyId in /home/xllhzwhu/public_html/App/admin/editImages.php on line 5
